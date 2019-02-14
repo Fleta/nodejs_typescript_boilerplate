@@ -4,7 +4,8 @@
   "description": "boilerplate of nodejs server with typescript",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lint && tsc && node dist",
+    "lint": "tslint -p"
   },
   "repository": {
     "type": "git",
