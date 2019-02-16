@@ -4,7 +4,7 @@
   "description": "boilerplate of nodejs server with typescript",
   "main": "server.js",
   "scripts": {
-    "start": "npm run lint && tsc && node dist",
+    "start": "tsc && node dist",
     "lint": "tslint -p"
   },
   "repository": {
