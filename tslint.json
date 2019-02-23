@@ -1,0 +1,6 @@
+{
+    "extends": "tslint-conifig-standard",
+    "rules": {
+        "space-before-function-paren": false
+    }
+}
